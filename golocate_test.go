@@ -29,7 +29,7 @@ func TestGeoClientUrl(t *testing.T) {
 }
 
 func TestSimpleRequest(t *testing.T) {
-	gc := NewGeoClient("AIzaSyDu723BTsqPUzpSQHqDHrOZTThMbPe13_Y")
+	gc := NewGeoClient("TestKey")
 	wap := []WifiAccessPoints{WifiAccessPoints{
 		MacAddress: "01:23:45:67:89:AB",
 		SignalStrength: 8,

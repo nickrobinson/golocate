@@ -7,8 +7,6 @@ import (
 	"fmt"
 )
 
-//https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDu723BTsqPUzpSQHqDHrOZTThMbPe13_Y
-
 type WifiAccessPoints struct {
 	MacAddress string `json:"macAddress"`
 	SignalStrength int `json:"signalStrength"`
